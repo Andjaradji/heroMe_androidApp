@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hero_bg_gradient"
+    tools:context="com.rds.andjaradji.herome.Fragments.BackStoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ffd200"
+            android:textStyle="bold"
+            android:text="@string/heroe_s_name"/>
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/logoHeroID"
+            android:src="@drawable/superman_crest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="@string/backstory"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:inputType="textImeMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/background_story"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/primary_power"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/primaryPowerBtnID"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableStart="@drawable/super_man_crest"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="@string/flight"
+            android:textAllCaps="false"
+            android:textColor="#ffd200"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secondary_power"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/secondaryPowerBtnID"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableStart="@drawable/super_man_crest"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="@string/flight"
+            android:textAllCaps="false"
+            android:textColor="#ffd200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/startOverBtnID"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_solid_button"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="15dp"
+            android:text="@string/start_over"
+            android:textColor="#10161D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

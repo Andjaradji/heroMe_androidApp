@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HeroMe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="came_by_accident">Came By Accident</string>
+    <string name="genetic_mutation">Genetic Mutation</string>
+    <string name="born_with_them">Born With Them</string>
+    <string name="choose_powers">Choose Powers</string>
+    <string name="how_did_you_get_your_powers">How did You Get Your Powers?</string>
+    <string name="turtle_power">Turtle Power</string>
+    <string name="lightning">Lightning</string>
+    <string name="flight">Flight</string>
+    <string name="web_slinging">Web Slinging</string>
+    <string name="laser_vision">Laser Vision</string>
+    <string name="super_strength">Super Strength</string>
+    <string name="show_backstory">Show BackStory</string>
+    <string name="pick_a_power">PICK A POWER</string>
+    <string name="heroe_s_name">Heroe\'s Name</string>
+    <string name="backstory">Backstory</string>
+    <string name="primary_power">Primary Power</string>
+    <string name="background_story">test dulu</string>
+    <string name="secondary_power">Secondary Power</string>
+    <string name="start_over">Start Over</string>
+</resources>

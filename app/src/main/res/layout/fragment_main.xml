@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hero_bg_gradient"
+    tools:context="com.rds.andjaradji.herome.Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffd200"
+            android:textStyle="bold"
+            android:text="@string/how_did_you_get_your_powers"/>
+
+        <ImageView
+            android:id="@+id/imageHeroesID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/heroes" />
+
+        <Button
+            android:id="@+id/byAccidentBtnID"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableStart="@drawable/lightning"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="@string/came_by_accident"
+            android:textAllCaps="false"
+            android:textColor="#ffd200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/byMutationBtnID"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableStart="@drawable/atomic"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="@string/genetic_mutation"
+            android:textAllCaps="false"
+            android:textColor="#ffd200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/byBornBtnID"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableStart="@drawable/rocket"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="@string/born_with_them"
+            android:textAllCaps="false"
+            android:textColor="#ffd200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/choosePowerBtnID"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_solid_button"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="15dp"
+            android:text="@string/choose_powers"
+            android:textColor="#10161D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
